@@ -1,5 +1,5 @@
 interface GCD;
-  method Action start (Bit#(32)) a, Bit#(32) b);
+  method Action start (Bit#(32) a, Bit#(32) b);
   method ActionValue#(Bit#(32)) getResult;
 endinterface
 
